@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="MyClass.css"> -->
+    <title>Document</title>
+    <style>
+      *{
+    margin: 0px;
+    padding: 0px;
+ }
+ .nav{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 0 4px;
+    display: flex;
+    justify-content: space-between;
+ }        
+ .header2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .header2 ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 2px;
+ }
+ .my-booking{
+    width: 62px;
+    height: 1px;
+    border: 1px solid grey;
+ }
+ .payrent{
+    width: 62px;
+    height: 1px;
+    border: 1px solid grey;
+    margin: 5px;
+    color: grey;
+    }
+    .forproperty{
+    width: 100px;
+    height: 1px;
+    border: 1px solid grey;
+    background-color: #20a320;
+    color: white;
+    }
+    .banner{
+        width: 100%;
+        height: 500px;
+        word-spacing: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        color: gray;
+        text-transform: capitalize;
+        justify-content: center;
+        align-items: center;
+        row-gap: 8px;
+        flex-direction: column;
+        margin-top: -50px;
+    }
+    .banner-heading{
+        width: 250px;
+        padding: 10px;
+        font-size: 12px;
+        margin-top: 10px;
+        color: whitesmoke;
+        background-color: darkgoldenrod;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        width: 300px;
+        margin: 10px;
+        box-shadow: 0 0 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        word-spacing: 300px;
+        cursor: pointer;
+        }
+    
+    .main-di{
+        display: flex;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: -18px;
+    }
+    .main-class{
+        width: 100px;
+        outline: none;
+        border-style: none;
+        border-radius: 2px;
+        color: grey;
+        border: 1px solid grey;
+    }
+    .main-class2{
+        text-indent: 25px;
+        width: 520px;
+        font-size: 15px;
+        padding: 15px;
+        outline: none;
+        border-style: none;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+    .border{
+        width: 650px;
+        height: 40px;
+        font-size: 15px;
+        box-shadow: 0 0 5px;
+    }
+    .banner-end{
+        width: 650px;
+        height: 50px;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        /* column-gap: 30px; */
+        align-items: center;
+        margin-top: -28px;
+    }
+    .banner-type{
+        color: gray;
+        outline: none;
+        padding: 10px;
+        box-shadow: 0 0 2px;
+        width: 133px;
+        border-style: none;
+    }
+    .banner-type1{
+        width: 200px;
+        padding: 10px;
+        
+        outline: none;
+        border-style: none;
+        text-indent: 20px;
+        font-size: 15px;
+        color: grey;
+        box-shadow: 0 0 2px;
+    }
+    .last-heading{
+        /* margin-top: 50px; */
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .last-ended{
+        width: 250px;
+        height: 40px;
+        color: white;
+        font-size: 15px;
+        background-color: #20a320;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav1{
+     width: 100%;
+     height: 40px;
+     background-color: #01263a;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+    }
+    .eligibility{
+        width: 100px;
+        height: 25px;
+        background-color: white;
+        border-radius: 8px;
+        display: flex;
+        padding: 2px;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+    </style>    
+</head>
+<body>
+    <div class="nav">
+        
+        <div class="header">
+            <img src="nb_logo_new_trans.svg" alt="" srcset="">
+        </div>
+        <div class="header2">
+        <ul>
+            <li class="my-booking">my bookings</li>
+            <li class="payrent">pay rent</li>
+            <li class="forproperty">for property owners</li>
+            <li>sign up</li>
+            <li>log in</li>
+            <img src="hamburger-menu.svg" alt="" srcset="">
+            <li class="menu">menu</li>
+        </ul>
+    </div>
+</div>
+    <div class="banner">
+      <h4>world's largest nobrokerage property site</h4>
+      <p class="banner-heading">Rental agreement | nextday delivery</p>
+      <div class="main">
+        <p class="buy">buy</p>
+        <p class="rent">rent</p>
+        <p class="sell">sell</p>
+      </div>
+      <div class="main-di">
+      <select value="" class="main-class">
+        <option value="">Bangalore</option>
+        <option value="">Mumbai</option>
+        <option value="">Pune</option>
+        <option value="">Hyderabad</option>
+        <option value="">Chennai</option>
+        <option value="">Gaziabad</option>
+        <option value="">Dehli</option>
+        <option value="">Faridabad</option>
+        <option value="">Noida</option>
+        <option value="">GreaterNoida</option>
+        <input type="text" class="main-class2" placeholder="Serach upto 3 localities or landmark"> 
+      </select>
+    </div>
+    <div class="banner-end">
+        <div class="border">
+        <input type="radio" name="house" value="FullHouse">
+        <label for="FullHouse">FullHouse</label>
+        <input type="radio" name="house">
+        <label for="PG">PG/Hostel</label>
+        <input type="radio" name="house">
+        <label for="FlatMates">FlatMates</label>
+      <select  name="" id="" class="banner-type">
+        <option value="">BHK Type</option>
+        <option value="">1RK</option>
+        <option value="">1BHK</option>
+        <option value="">2BHK </option>
+        <option value="">3BHK</option>
+        <option value="">4BHK</option>
+        <option value="">4BHK+</option>
+        <input type="text" placeholder="Availibility" class="banner-type1" type="date"> 
+      </select>
+    </div>
+    </div>
+    <div class="last-heading">
+      <h3>-------Are you a property owner?--------</h3>
+      <h2 class="last-ended">Post free property ad</h2>
+    </div>
+    </div>
+    <div class="nav1">
+
+        <p>Do you know how much loan you can get? Get maximum with Nobroker </p>
+        <div class="eligibility">
+            Check elibility
+        </div>
+        
+    </div>
+</body>
+</html>
